@@ -1,6 +1,6 @@
 import type { H3Event } from "h3";
-import type { MockResponse } from "../../../types.js.js";
-export declare function externalRegistry(): import("../core/MockRegistry.js.js").MockRegistry;
+import type { MockResponse } from "../../../types.js";
+export declare function externalRegistry(): import("../core/MockRegistry.js").MockRegistry;
 export declare function runExternalMock(input: {
     targetName: string;
     baseURL: string;

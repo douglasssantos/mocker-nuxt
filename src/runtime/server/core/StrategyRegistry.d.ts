@@ -1,4 +1,4 @@
-import type { MockStrategy } from "../../../types.js.js";
+import type { MockStrategy } from "../../../types.js";
 export declare class StrategyRegistry {
     private strategies;
     register(name: string, strategy: MockStrategy): this;

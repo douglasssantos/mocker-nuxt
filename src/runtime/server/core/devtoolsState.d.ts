@@ -1,5 +1,5 @@
-import type { MockRegistryEntry } from "../../../types.js.js";
-import { MockRegistry, type MockRouteInfo } from "./MockRegistry.js.js";
+import type { MockRegistryEntry } from "../../../types.js";
+import { MockRegistry, type MockRouteInfo } from "./MockRegistry.js";
 export type PanelStrategy = MockRouteInfo["strategy"] | "proxy";
 export interface PanelRoute extends Omit<MockRouteInfo, "strategy"> {
     strategy: PanelStrategy;

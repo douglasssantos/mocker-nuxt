@@ -1,4 +1,4 @@
-import type { MockDefinition, MockRegistryEntry } from "../../../types.js.js";
+import type { MockDefinition, MockRegistryEntry } from "../../../types.js";
 export interface MockRouteInfo {
     file: string;
     name: string;

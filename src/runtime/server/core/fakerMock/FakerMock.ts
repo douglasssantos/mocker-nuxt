@@ -1,4 +1,5 @@
-import type { MockResponse } from "../../../../types.js";
+
+import type { MockResponse } from "~/src/types.js";
 import { COMPANIES } from "./data/CompanyData.js";
 import { GENDERS } from "./data/GenderData.js";
 import { CITIES, DDDS, STATES } from "./data/LocationData.js";

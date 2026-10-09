@@ -1,4 +1,4 @@
-import type { MockResponse } from "../../../../types.js.js";
+import type { MockResponse } from "../../../../types.js";
 export declare class FakerMock {
     private rng;
     constructor(seed?: number);
