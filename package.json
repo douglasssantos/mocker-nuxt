@@ -1,6 +1,6 @@
 {
   "name": "mocker-nuxt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Nuxt Nitro mocking gateway with strategy registry and API proxy",
   "repository": "https://github.com/douglasssantos/mocker-nuxt",
   "license": "MIT",
@@ -34,7 +34,7 @@
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
-     "build": "nuxt-module-build build && tsup",
+    "build": "nuxt-module-build build && tsup",
     "build2": "nuxt-module-build build && tsup src/utils/index.ts --format esm --dts --out-dir dist",
     "prepack": "nuxt-module-build build",
     "dev": "npm run dev:prepare && nuxt dev playground",
