@@ -7,7 +7,7 @@ export default createConfigForNuxt({
     // Rules for module authors
     tooling: true,
     // Rules for formatting
-    stylistic: false,
+    stylistic: true,
   },
   dirs: {
     src: [

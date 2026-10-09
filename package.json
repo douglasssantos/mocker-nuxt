@@ -1,14 +1,15 @@
 {
-  "name": "Mocker",
+  "name": "mocker-nuxt",
   "version": "1.0.0",
   "description": "Nuxt Nitro mocking gateway with strategy registry and API proxy",
-  "repository": "your-org/my-module",
+  "repository": "https://github.com/douglasssantos/mocker-nuxt",
   "license": "MIT",
   "type": "module",
   "exports": {
     ".": {
       "types": "./dist/types.d.mts",
-      "import": "./dist/module.mjs"
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
     },
     "./utils": {
       "types": "./dist/utils.d.ts",
@@ -16,6 +17,8 @@
     }
   },
   "main": "./dist/module.mjs",
+  "module": "./dist/module.mjs",
+  "types": "./dist/types.d.ts",
   "typesVersions": {
     "*": {
       ".": [
